@@ -32,3 +32,25 @@ main {
     width: 267px;
     height: 471px;
 }
+
+#fundo {
+    text-align: right;
+}
+
+#fundo img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.637);
+    box-sizing: border-box;
+    
+}
+
+#fundo img:hover {
+    transform: translate(-3px, -3px);
+    transition: transform .3s;
+    border: 1px solid white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
+}
+
+
